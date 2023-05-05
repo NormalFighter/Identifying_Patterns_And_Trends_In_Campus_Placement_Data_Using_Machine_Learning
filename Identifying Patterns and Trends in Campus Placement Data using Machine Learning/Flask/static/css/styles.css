@@ -1,0 +1,58 @@
+/* styles.css */
+
+* {
+  margin: 0;
+  font-family: sans-serif;
+  text-decoration: none;
+  list-style: none;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+body {
+  background-color: rgb(14, 14, 87);
+}
+
+.nav {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.title {
+  color: white;
+  font-size: 1.5rem;
+  padding-left: 20px;
+  line-height: 50px;
+}
+
+.nav ul {
+  float: right;
+  text-align: right;
+  margin-right: 20px;
+}
+
+ul {
+  display: inline-block;
+}
+
+li {
+  box-sizing: border-box;
+  margin: 10px 20px;
+  line-height: 50px;
+}
+
+a {
+  text-align: right;
+  color: rgb(0, 110, 255);
+}
+
+.col-xl-8 {
+  color: white;
+  margin: 20%;
+  margin-bottom: 100px;
+}
+
+.para {
+  text-align: center;
+}

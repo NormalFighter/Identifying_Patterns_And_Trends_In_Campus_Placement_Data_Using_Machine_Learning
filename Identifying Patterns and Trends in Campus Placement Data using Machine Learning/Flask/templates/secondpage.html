@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document3</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/thirdpage.css') }}">
+</head>
+<body>
+    <h2 class="title">PLACEMENT PREDICTION</h2>
+        <section id="hero" class="d-flex-column justify-content-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div id="center" class="col-xl-8">
+                    <h1>The Prediction is : {{y}}</h1>
+                    <h3>0 represents NOt-Placed</h3>
+                    <h3>1 represents Placed</h3>
+                    <a href="/">Home</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+

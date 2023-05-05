@@ -1,0 +1,18 @@
+/* thirdpage.css */
+
+body {
+  background-color: rgb(14, 14, 87);
+  color: white;
+}
+
+.title {
+  margin-left: 10%;
+}
+
+h3 {
+  color: gray;
+}
+
+#center {
+  margin: 15% 0% 0% 30%;
+}
